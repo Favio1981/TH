@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { AuthGuard } from './core/guards/auth.guard';
 import { AuthenticatedGuard } from './core/guards/authenticated.guard';
+import { SectoresComponent } from './business/sectores/sectores.component';
 
 export const routes: Routes = [
     {
@@ -17,6 +18,14 @@ export const routes: Routes = [
                 loadComponent: () => import('./business/profile/profile.component'),
                 canActivate: [AuthGuard]
             },
+
+              {
+                path: 'sectores',
+                component: SectoresComponent,
+                canActivate: [AuthGuard]
+              },
+
+
             {
                 path: 'tables',
                 loadComponent: () => import('./business/tables/tables.component'),

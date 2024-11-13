@@ -270,18 +270,19 @@
     </div>
   </div> -->
   <div class="modulo">
-    <div class="principal text-teal-600 font-bold">
+    <div class="principal text-teal-600 font" style="color: rgb(0, 0, 0);">
         <b class="titulo">Participantes</b>
         <div class="descripcion">Índice Maestro de Participantes</div>
     </div>
     <div class="submodulos flex items-start space-x-4">
         <!-- Primer Submódulo -->
-        <a href="/profile" class="hover:scale-105 hover:bg-teal-700 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(2, 122, 138);">
+        <a routerLink="/profile" class="hover:scale-105 hover:bg-teal-700 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(2, 122, 138);">
             <div class="icon-container mb-2">
                 <i class="adi adi-familia lg text-2xl"></i>
             </div>
             <div class="titulo">Agregar/Modificar<br><b>Participante</b></div>
         </a>
+
         <!-- Segundo Submódulo -->
         <a href="#" class="hover:scale-105 hover:bg-teal-800 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(0, 95, 99);">
             <div class="icon-container mb-2">
@@ -292,22 +293,22 @@
     </div>
 </div>
 
-
+<!-- Reuniones!!
 <div class="modulo">
   <div class="principal text-pink-600 font-bold" style="color: rgb(188, 84, 133);">
       <b class="titulo">Reunion</b>
       <div class="descripcion">Subtitulo</div>
   </div>
   <div class="submodulos flex items-start space-x-4">
-      <!-- Primer Submódulo -->
-      <a href="/tables" class="hover:scale-105 hover:bg-pink-700 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(188, 84, 133);">
+       Primer Submódulo
+      <a routerLink="/tables" class="hover:scale-105 hover:bg-pink-700 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(188, 84, 133);">
           <div class="icon-container mb-2">
               <i class="adi adi-mano-corazon lg text-2xl"></i>
           </div>
           <div class="titulo">Agregar <br><b>Reunion</b></div>
       </a>
-      <!-- Segundo Submódulo -->
-      <a href="#" class="hover:scale-105 hover:bg-pink-600 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(226, 103, 123);">
+      Segundo Submódulo
+      <a routerLink="#" class="hover:scale-105 hover:bg-pink-600 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(226, 103, 123);">
           <div class="icon-container mb-2">
               <i class="adi adi-folder-account lg text-2xl"></i>
           </div>
@@ -315,6 +316,81 @@
       </a>
   </div>
 </div>
+Sectores!!
+
+<div class="modulo">
+  <div class="principal text-pink-600 font-bold" style="color: rgb(188, 84, 133);">
+      <b class="titulo">Sector</b>
+      <div class="descripcion">Subtitulo</div>
+  </div>
+  <div class="submodulos flex items-start space-x-4">
+       Primer Submódulo
+      <a routerLink="/tables" class="hover:scale-105 hover:bg-pink-700 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(188, 84, 133);">
+          <div class="icon-container mb-2">
+              <i class="adi adi-mano-corazon lg text-2xl"></i>
+          </div>
+          <div class="titulo">Agregar <br><b>Sector</b></div>
+      </a>
+      <!-- Segundo Submódulo -->
+     <!--  <a routerLink="#" class="hover:scale-105 hover:bg-pink-600 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(226, 103, 123);">
+          <div class="icon-container mb-2">
+              <i class="adi adi-folder-account lg text-2xl"></i>
+          </div>
+          <div class="titulo">Listar <br>Sectores<b></b></div>
+      </a>
+  </div>
+</div> --> -->
+
+<div class="flex flex-wrap gap-4">
+  <!-- Modulo Reuniones -->
+  <div class="modulo flex-1 min-w-[300px]">
+    <div class="principal text-pink-600 font" style="color: rgb(0, 0, 0);">
+      <b class="titulo">Reunion</b>
+      <div class="descripcion">Subtitulo</div>
+    </div>
+    <div class="submodulos flex items-start space-x-4">
+      <!-- Primer Submódulo -->
+      <a routerLink="/tables" class="hover:scale-105 hover:bg-pink-700 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(188, 84, 133);">
+        <div class="icon-container mb-2">
+          <i class="adi adi-mano-corazon lg text-2xl"></i>
+        </div>
+        <div class="titulo">Agregar <br><b>Reunion</b></div>
+      </a>
+      <!-- Segundo Submódulo -->
+      <a routerLink="#" class="hover:scale-105 hover:bg-pink-600 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(226, 103, 123);">
+        <div class="icon-container mb-2">
+          <i class="adi adi-folder-account lg text-2xl"></i>
+        </div>
+        <div class="titulo">Listar <br>Reunion</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Modulo Sectores -->
+  <div class="modulo flex-1 min-w-[300px]">
+    <div class="principal text-pink-600 " style="color: rgb(0, 0, 0);">
+      <b class="titulo">Sector</b>
+      <div class="descripcion">Subtitulo</div>
+    </div>
+    <div class="submodulos flex items-start space-x-4">
+      <!-- Primer Submódulo -->
+      <a routerLink="/sectores" class="hover:scale-105 hover:bg-pink-700 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(110, 97, 135);">
+        <div class="icon-container mb-2">
+          <i class="adi adi-mano-corazon lg text-2xl"></i>
+        </div>
+        <div class="titulo">Agregar <br><b>Sector</b></div>
+      </a>
+      <!-- Segundo Submódulo -->
+      <a routerLink="#" class="hover:scale-105 hover:bg-pink-600 transition-transform duration-300 ease-in-out submodulo p-4 text-white text-center rounded-lg" style="background-color: rgb(93, 112, 147);">
+        <div class="icon-container mb-2">
+          <i class="adi adi-folder-account lg text-2xl"></i>
+        </div>
+        <div class="titulo">Listar <br>Sectores</div>
+      </a>
+    </div>
+  </div>
+</div>
+
 
 
 
